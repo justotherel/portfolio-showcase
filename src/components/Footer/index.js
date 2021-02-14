@@ -22,12 +22,6 @@ function Footer() {
                             <FooterLink to="/something">Link 2</FooterLink>
                             <FooterLink to="/something">Link 3</FooterLink>
                         </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Link block 2</FooterLinkTitle>
-                            <FooterLink to="/something">Link 1</FooterLink>
-                            <FooterLink to="/something">Link 2</FooterLink>
-                            <FooterLink to="/something">Link 3</FooterLink>
-                        </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <ExternalLinks>
@@ -35,8 +29,8 @@ function Footer() {
                         <LinkLogo to='/' onClick={toggleHome}>Justotherel</LinkLogo>
                         <WebsiteRights>Maxim Ushakov <Copyleft>©</Copyleft> {new Date().getFullYear()} All rights reversed</WebsiteRights>
                         <ExternalIcons>
-                            <ExternalIconLink href="/" targer="_blank" aria-label="GitHub"><FaGithub /></ExternalIconLink>
-                            <ExternalIconLink href="/" targer="_blank" aria-label="Mail"><AiFillMail /></ExternalIconLink>
+                            <ExternalIconLink href="//github.com/justotherel" target="_blank" aria-label="GitHub"><FaGithub /></ExternalIconLink>
+                            <ExternalIconLink href="mailto:justotherel@gmail.com" target="_blank" aria-label="Mail"><AiFillMail /></ExternalIconLink>
                         </ExternalIcons>
                     </ExternalsWrap>
                 </ExternalLinks>

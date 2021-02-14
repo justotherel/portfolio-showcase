@@ -2,6 +2,11 @@ import img1 from "../../images/img1.svg"
 import img2 from "../../images/img2.svg"
 import img3 from "../../images/img3.svg"
 
+// #0C0032
+// #190061
+// #240090
+// #3500D3
+// #282828
 
 export const homeObjOne = {
     id: 'block1',

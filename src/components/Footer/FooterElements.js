@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-    background-color: #011522;
+    background-color: #0C0032;
 `
 
 export const FooterWrap = styled.div`
@@ -33,11 +33,12 @@ export const FooterLinksWrapper = styled.div`
 export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: 16px;
     text-align: left;
     width: 160px;
     box-sizing: border-box;
+    padding-top: 26px;
     color: #fff;
 
     @media screen and (max-width: 420px) {
@@ -59,7 +60,7 @@ export const FooterLink = styled(Link)`
     font-size: 14px;
 
     &:hover {
-        color: #01bf71;
+        color: #3500D3;
         transition: 0.3s ease-out
     }
 `
